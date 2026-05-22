@@ -36,5 +36,3 @@ with open("users.json", "w") as users_file:
     json.dump(users, users_file, indent=4)
 
 print("User saved successfully!")
-
-print ("hello ")
